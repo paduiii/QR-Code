@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    .attribution { font-size: 11px;}
+    .attribution a { color: hsl(228, 45%, 44%);}
+
+  body {
+    justify-content: center;
+    align-items: center;
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    display: grid;
+    place-items: center; /* Centers everything vertically and horizontally */
+    min-height: 100vh;
+    grid-template-rows: 465px 10px;
+  }
+
+  footer {
+    place-self: center;
+    margin-top: 450px;
+  }
+
+  .card {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      width: 260px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px;
+      margin-top: 400px;
+  }
+
+  .qr-code img {
+      width: 260px;
+      height: 260px;
+      border-radius: 12px;
+  }
+
+  .card-content h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 20px;
+  }
+
+  .card-content p {
+      font-size: 15px;
+      font-weight: 400;
+      color: #666;
+      margin-top: 5px;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="qr-code">
+        <img src="images/image-qr-code.png" alt="QR Code">
+    </div>
+    <div class="card-content">
+        <h2>Improve your front-end skills by building projects</h2>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+  
+</body>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/paduiii">Nonthakron Srinitee</a>.
+  </div>
+</footer>
+</html>
